@@ -4,13 +4,17 @@
 
 " PLUGINS
 call plug#begin('~/AppData/Local/nvim/plugged')
-    Plug 'arcticicestudio/nord-vim'
+    Plug 'morhetz/gruvbox'
     Plug 'preservim/nerdtree'
     Plug 'ryanoasis/vim-devicons'
+    Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'rust-lang/rust.vim'
+    Plug 'cespare/vim-toml'
+    Plug 'vim-syntastic/syntastic'
 call plug#end()
 
 " THEME "
-colorscheme nord
+colorscheme gruvbox
 
 " LEADER "
 let mapleader = " "
